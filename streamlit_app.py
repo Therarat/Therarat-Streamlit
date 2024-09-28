@@ -5,8 +5,6 @@ import google.generativeai as genai
 st.title("🐧 My chatbot app")
 st.subheader("Conversation")
 st.write("We are EASY DIY for reparing your Motorcycle")
-st.write("for example of
-            ")
 
 # Capture Gemini API Key
 gemini_api_key = st.text_input("Gemini API Key: "
